@@ -40,7 +40,7 @@
 <ins>下划线</ins>
 <u>下划线</u>
 ```
-[案例链接](https://github.com/Angryniu/study_note/blob/main/%E4%BD%93%E8%82%B2%E6%96%B0%E9%97%BB.html)
+[案例链接](https://github.com/Angryniu/study_note/blob/main/html%E6%A1%88%E4%BE%8B/%E4%BD%93%E8%82%B2%E6%96%B0%E9%97%BB.html)
 
 # 没有语义的标签,当盒子来装内容
 ```
@@ -105,6 +105,11 @@
 <!-- cellpadding 文字与边框的距离-->
 <!-- cellspacing 单元格之间的空白 -->
 <!-- width 表格宽度 -->
+<!-- 语义标签 thead tbody -->
+<!-- 合并单元格：
+      跨行（colspan='个数'） 用在最上面一个单元格,对应手动删除下面的标签
+      跨列（rowspan='个数'） 用在最左边一个单元格，对应手动删除左边的标签
+ -->
 <table>
 <tr>
    <th></th>
@@ -114,6 +119,7 @@
 </tr>
 </table>
 ```
+[表格案例](https://github.com/Angryniu/study_note/blob/main/html%E6%A1%88%E4%BE%8B/%E8%A1%A8%E6%A0%BC.html)
 
 # 框架
 ```
