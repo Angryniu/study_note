@@ -1,45 +1,63 @@
 # html基本文档
 <! DOCTYPE html> // 声明html5
-<html>
+```
+<html lang='zh-CN'>
  <head>
-  <meta>
+  <meta charset='UTF-8'>
   <title></title>
  </head>
  <body></body>
 </html>
+```
 
 # 基本标签
 ```html
+<!-- 标题标签 -->
 <h1>~<h6>
+<!-- 段落标签 段落之间有缝隙 -->
 <p>
-<br>
+<!-- 换行标签 -->
+<br/>
 <hr>
 ```
 <!-- 注释 -->
 
 # 文本格式化
+```
 <em> 斜体
 <b>  粗体  。。。。。
+```
+
 
 # 链接
+```
  <a href=""></a>
  <a href="#id">跳到提示部分</a>
  <a id="id">提示部分</a>
+ ```
+
 
 # 图片
+```
  <img src="url">
+ ```
 
 # 区块元素
+```
  <div>   块级元素   可以设置长宽、内外边距可以设置，宽度默认为父亲的宽度，不在同一行显示
  <span>  行内元素   不可以设置长宽、内外边距，宽度为自身字体大小，在同一行显示
  <img>   行内块元素  可以设置长宽、内外边距，宽度为自身默认大小，在同一行显示，有间隙
+ ```
  
 # 列表
+```
 * 无序列表   <ul><li></li></ul>
 * 有序列表   <ol><li></li></ol>
 * 自定义列表   <dl><dt></dt><dd></dd></dl>
+```
 
 # 表格
+```
 * <table>
 <tr>
    <th></th>
@@ -48,11 +66,15 @@
    <td></td>
       </tr>
 </table>
+```
 
 # 框架
+```
 * <iframe src="">
+```
 
 # 表单
+```
 * <form>
     <input type="text">
     <select>
@@ -60,6 +82,7 @@
      </select>
     <textarea></textarea>
    </form>
+```
 
 # 实体
 * &lt = <
