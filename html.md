@@ -23,9 +23,22 @@
 [案例链接](https://github.com/Angryniu/study_note/blob/main/%E4%BD%93%E8%82%B2%E6%96%B0%E9%97%BB.html)
 
 # 文本格式化
-```
-<em> 斜体
-<b>  粗体  。。。。。
+```html
+<!-- 加粗 -->
+<strong>加粗</strong>
+<b>加粗</b>
+
+<!-- 斜体 -->
+<em>斜体</em>
+<i>斜体</i>
+
+<!-- 删除线 -->
+<del>删除</del>
+<s>删除</s>
+
+<!-- 下划线 -->
+<ins>下划线</ins>
+<u>下划线</u>
 ```
 
 
