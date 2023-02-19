@@ -128,13 +128,13 @@
 
 # 表单
 ```
-* <form>
+<form>
     <input type="text">
     <select>
       <option></option>
      </select>
     <textarea></textarea>
-   </form>
+</form>
 ```
 
 # 实体
@@ -146,7 +146,9 @@
 
 
 # HTML5 Canvas(画布)
-* <canvas width="" height="">  通过javascript操作绘图
+```
+<canvas width="" height="">  通过javascript操作绘图
+```
 
 # HTML5 SVG(可缩放矢量图形)
 # HTML5 MathML(数学标记语言)
